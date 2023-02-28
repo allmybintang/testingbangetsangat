@@ -627,7 +627,7 @@
     bottom: 0;
       /* edit the width to fit card */
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     background: #f2f2f2;
     border-top-left-radius: 20px;
       /* edit here to change the height of the content box */
@@ -660,7 +660,7 @@
   }
   
   .card1_description {
-    font-size: 14px;
+    font-size: 12px;
     opacity: 0;
     transition: opacity .5s;
     color: #000;
@@ -1463,9 +1463,21 @@
     .offset-md-11 {
       margin-left: 91.66667%;
     }
+    .card1_title{
+      font-size: 10px;
+    }
+    .card1_description{
+      font-size: 8px ;
+    }
   }
   
   @media (min-width: 992px) {
+    .card1_title{
+      font-size: 14px;
+    }
+    .card1_description{
+      font-size: 12px ;
+    }
     .col-lg {
       -webkit-flex-basis: 0;
           -ms-flex-preferred-size: 0;
@@ -11641,15 +11653,11 @@ img{
   .header .container .infos .title {
 
     margin-bottom: 0px;
-    font-size: 74px;
+    font-size: 60px;
     font-weight: bold;
     color: #fff;
   }
 
-  .title1 {
-    font-size: 74px;
-    color: #000;
-  }
   
   .header .container .infos p {
     align-items: center;
@@ -11711,6 +11719,8 @@ img{
     position: relative;
     max-width: 650px;
     width: 95%;
+    margin-top: auto;
+    margin-bottom: auto;
     margin: 0 auto;
     border-radius: 50px;
     display: -webkit-box;
