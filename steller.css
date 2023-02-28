@@ -11645,6 +11645,11 @@ img{
     font-weight: bold;
     color: #fff;
   }
+
+  .title1 {
+    font-size: 74px;
+    color: #000;
+  }
   
   .header .container .infos p {
     align-items: center;
